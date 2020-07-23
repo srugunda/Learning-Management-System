@@ -2,21 +2,32 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/action_recents"
+        android:id="@+id/navigation_video"
         android:enabled="true"
-        android:icon="@drawable/ic_action_recents"
-        android:title="Recents"
+        android:icon="@drawable/ic_action_video"
+        android:title="Videos"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/action_favorites"
+        android:id="@+id/navigation_study"
         android:enabled="true"
-        android:icon="@drawable/ic_favorites"
-        android:title="Favorites"
+        android:icon="@drawable/ic_action_study"
+        android:title="Study"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/action_nearby"
+        android:id="@+id/navigation_test"
         android:enabled="true"
-        android:icon="@drawable/ic_action_nearby"
-        android:title="Nearby"
+        android:icon="@drawable/ic_action_test"
+        android:title="Test"
         app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/navigation_doubt"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_doubt"
+        android:title="Doubts"
+        app:showAsAction="ifRoom" />
+
+
+
+
 </menu>

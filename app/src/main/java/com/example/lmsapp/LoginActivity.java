@@ -24,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
     public void login(View view) {
 
         if (((inputUserName.getText().toString()).equals("admin")) && ((inputPassword.getText().toString()).equals("admin"))){
-            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+            Intent intent = new Intent(LoginActivity.this, BoardSelectionActivity.class);
             startActivity(intent);
         }
         else{
