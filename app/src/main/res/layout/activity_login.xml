@@ -17,15 +17,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Welcome to LMS"
-            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textSize="30sp"
             android:fontFamily="cursive"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"/>
 
         <!-- Email Label -->
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="24dp"
             android:layout_marginBottom="8dp">
 
             <EditText
